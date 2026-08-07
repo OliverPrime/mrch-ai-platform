@@ -1,0 +1,7 @@
+{
+  "name": "mrch-signature-host",
+  "private": true,
+  "scripts": {
+    "build": "python3 -m pip install --user Pillow==11.3.0 && python3 generate_signature.py"
+  }
+}
